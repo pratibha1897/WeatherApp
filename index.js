@@ -81,7 +81,7 @@ $(document).ready(function() {
                 var yes = true;
                 $('#switch').on('click', function() {
                     if (yes) {
-                        alert('Try with diffrent cities');
+//                         alert('Try with diffrent cities');
                         $('#info3').html(temp_max+'&#176;');
                         $('#switch').html('Show minumum temperature');
                         yes = false;
