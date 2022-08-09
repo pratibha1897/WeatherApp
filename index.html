@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Weather App</title> 
+  </head>
+  <body>
+
+   
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center jumbotron top">
+                <h1>Today's Weather</h1>
+                <hr class="short">
+                <h2 id="weather">Loading...</h2>
+                <input type="text" id="txt" name="name" class="txt1" placeholder="Enter City">
+                <button class="query_btn btn-primary">Check Weather</button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 text-center grey-jumbo">
+                <div class="text-center">
+                    <h3 id="temp"></h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3 id="info1"></h3>
+                    <hr class="short">
+                    <h3 id="info2"></h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3 id="info3"></h3>
+
+                    <button id="switch" class="btn btn-primary">Show maximum temperature</button>
+                </div>
+                <div class="col-sm-4">
+                    <h3 id="info5"></h3>
+                    <hr class="short">
+                    <h3 id="info6"></h3>
+                </div>
+                <div class="col-sm-12 text-center jumbotron top1">
+                    <h1>Today's Weather Description</h1>
+                    <hr class="short">
+                    <h2 id="weather1">Loading...</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container fluid">
+        <div class="row">
+            <div class="col-sm-12 jumbotron text-center top">
+                <h1>Check Today's Weather!</h1>
+                <hr>
+                <h3 class="weather1">Loading...</h3>
+                <input type="text" id="txt" name="name" class="txt1" placeholder="Enter City">
+                <button class="query_btn">Check Weather</button>
+            </div>
+        </div>
+    </div> -->
+ 
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  
+        <script type="text/javascript">
+
+    //         $(document).ready(function(){
+    //             // console.log("check");
+    //             var appkey='8864625e1b0f7efe0c5405c44cecdadb';
+    //             $(".query_btn").click(function(){
+    //     var query_param = $('#txt').val();
+    //     var url = "http://api.openweathermap.org/data/2.5/weather?q=" + query_param +'&appid='+appkey+'&query=';
+    //     $.getJSON(url,function(data){
+    //         console.log(data);
+    //         // $(".weather1").html(json.name);
+    //             });        
+    // })
+   
+
+             
+    //         });
+
+        </script>
+
+
+
+  
+        <script src="index.js">
+ 
+        </script>
+  </body>
+</html>
